@@ -1,1 +1,49 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Koningsspelen Kroontjes</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="kks-root">
 
+        <!-- ── Startscherm ── -->
+        <div id="kks-main-screen">
+            <header id="kks-header">
+                <h1 id="kks-title">&#128081; Koningsspelen Kroontjes &#128081;</h1>
+                <p id="kks-subtitle">Kies een kroon en voer de challenge uit!</p>
+            </header>
+            <div id="kks-grid"></div>
+        </div>
+
+        <!-- ── Challenge-scherm ── -->
+        <div id="kks-challenge-screen" class="kks-hidden">
+            <div id="kks-challenge-card">
+                <div id="kks-challenge-deco" aria-hidden="true">&#128081;</div>
+                <div id="kks-challenge-badge"></div>
+                <h2 id="kks-challenge-title"></h2>
+                <div id="kks-challenge-body">
+                    <p id="kks-challenge-instruction"></p>
+                    <p id="kks-challenge-rule"></p>
+                </div>
+                <button id="kks-back-btn" type="button">&#8592; Terug naar de kroontjes</button>
+            </div>
+        </div>
+
+        <!-- ── Eindscherm ── -->
+        <div id="kks-end-screen" class="kks-hidden">
+            <div id="kks-end-card">
+                <div id="kks-end-emoji" aria-hidden="true">&#127881; &#128081; &#127881;</div>
+                <h2 id="kks-end-title">Alle kroontjes zijn gespeeld!</h2>
+                <p id="kks-end-msg">Geweldig! Jullie hebben alle 10 challenges gedaan!</p>
+                <button id="kks-restart-btn" type="button">&#128260; Opnieuw starten</button>
+            </div>
+            <div id="kks-confetti" aria-hidden="true"></div>
+        </div>
+
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
