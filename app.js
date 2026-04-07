@@ -17,14 +17,14 @@
         },
         {
             id: 2,
-            title: 'Knieënhoek',
+            title: 'De onzichtbare troon',
             instruction: 'Zak door je knieën alsof je op een onzichtbare stoel zit.',
             rule: 'Kom je omhoog of verlies je je houding? Dan ben je af.'
         },
         {
             id: 3,
-            title: 'Flamingodraai',
-            instruction: 'Ga op één been staan en draai heel langzaam een rondje.',
+            title: 'Sing Along!',
+            instruction: 'Zing Ola Ole Olee met de klas.',
             rule: 'Zet je je voet neer of verlies je je evenwicht? Dan ben je af.'
         },
         {
@@ -41,7 +41,7 @@
         },
         {
             id: 6,
-            title: 'Koninklijke Neus',
+            title: 'Koning Snor',
             instruction: 'Klem een potlood tussen je neus en bovenlip.',
             rule: 'Laat je het vallen? Dan ben je af.'
         },
@@ -55,13 +55,13 @@
             id: 8,
             title: 'Spiegeltekenen',
             instruction: 'Teken met je niet-schrijfhand een kroon.',
-            rule: 'De leerkracht kiest de grappigste, mooiste of meest koninklijke tekening.'
+            rule: 'Kroon jij jezelf tot illustrator?'
         },
         {
             id: 9,
             title: 'Koninklijk Portret',
             instruction: 'Teken in korte tijd een koning of koningin.',
-            rule: 'De leerkracht kiest het leukste portret.'
+            rule: 'De leerkracht bepaalt de tijd.'
         },
         {
             id: 10,
