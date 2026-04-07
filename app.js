@@ -25,7 +25,7 @@
             id: 3,
             title: 'Sing Along!',
             instruction: 'Zing Ola Ole Olee met de klas.',
-            rule: 'Zet je je voet neer of verlies je je evenwicht? Dan ben je af.'
+            rule: 'Zing allemaal uit volle borst mee!'
         },
         {
             id: 4,
